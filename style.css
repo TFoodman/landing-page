@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading, .hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    font-size: 18px;
+}
+
+#main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
