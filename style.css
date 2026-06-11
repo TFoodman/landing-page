@@ -15,7 +15,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 24px 240px;
+    padding: 24px 48px;
     justify-content: center;
     gap: 64px;
 }
@@ -64,6 +64,8 @@ button {
     margin-top: 12px;
     font-weight: bold;
     border-radius: 12px;
+    border: 2px solid #E5E7EB;
+    flex-shrink: 0;
 }
 
 .information {
@@ -95,6 +97,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin: 80px 0 40px 0;
 }
 
 .quote {
@@ -108,4 +111,23 @@ button {
 .attribution {
     margin: 0px 260px 60px 0;
     font-size: 24px;
+}
+
+.subscription {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 128px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 20px;
+    margin: 40px 240px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    gap: 48px;
+}
+
+#subscription-sub {
+    font-size: 18px;
+    font-weight: normal;
 }
