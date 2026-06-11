@@ -26,6 +26,7 @@ ul {
     display: flex;
     font-size: 18px;
     padding: 18px 240px 100px 240px;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -139,4 +140,5 @@ button {
     padding: 64px;
     text-align: center;
     font-size: 18px;
+    margin-top: auto;
 }
