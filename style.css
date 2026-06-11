@@ -10,17 +10,26 @@ body {
     flex-direction: column;
 }
 
-.heading, .hero {
+.heading {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
     font-size: 18px;
+    padding: 18px 240px 100px 240px;
+    gap: 24px;
+}
+
+#logo {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 #main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 18px;
 }
 
 a {
@@ -29,5 +38,16 @@ a {
 }
 
 #main-image {
-    width: 400px;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+button {
+    padding: 6px 32px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+    border-radius: 12px;
 }
