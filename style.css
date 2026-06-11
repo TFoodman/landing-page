@@ -120,7 +120,7 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 20px;
-    margin: 40px 240px;
+    margin: 40px 240px 100px 240px;
     font-size: 24px;
     font-weight: bold;
     border-radius: 12px;
@@ -130,4 +130,12 @@ button {
 #subscription-sub {
     font-size: 18px;
     font-weight: normal;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 64px;
+    text-align: center;
+    font-size: 18px;
 }
